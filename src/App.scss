@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+
+  min-width: 70vw;
+  background: white;
+  padding-bottom: 5%;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2em;
+  backdrop-filter: blur(2rem);
+
+  z-index: 1;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .App-logo {

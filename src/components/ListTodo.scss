@@ -1,0 +1,37 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .todo-list-header {
+    display: flex;
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .line {
+      display: flex;
+      margin: 2px;
+      padding: 2px;
+    }
+  }
+
+  .list {
+    width: 100%;
+    max-width: 360px;
+    background: rgb(79, 125, 129);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 1rem;
+  }
+}
